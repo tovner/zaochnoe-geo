@@ -26,13 +26,16 @@ footer{color:var(--muted);font-size:14px;margin-top:30px}
 .selfcheck{background:#fff8e8;border:1px solid #efd18b;border-radius:14px;padding:16px 20px;margin:24px 0}
 .selfcheck summary{cursor:pointer;font-weight:800;color:#704f00}.selfcheck ol{margin-bottom:0}
 .data-note{background:#f7f7f7;border-left:5px solid #76889a;border-radius:0 12px 12px 0;padding:13px 17px;margin:18px 0;color:var(--muted);font-size:15px}
-@media print{.topbar,.tasknav{display:none}.page{max-width:none;padding:0}.card,.goals,.selfcheck,.terms,.data-note{break-inside:avoid}}
+.mobile-grade-back{display:none}
+@media (max-width:700px){.mobile-grade-back{display:inline-flex;position:fixed;left:14px;bottom:14px;z-index:50;align-items:center;min-height:44px;padding:9px 15px;border-radius:999px;background:#165fc7;color:#fff;text-decoration:none;font-weight:800;box-shadow:0 6px 20px rgba(20,42,61,.28)}}
+@media print{.topbar,.tasknav,.mobile-grade-back{display:none}.page{max-width:none;padding:0}.card,.goals,.selfcheck,.terms,.data-note{break-inside:avoid}}
 ul{padding-left:22px}li{margin:6px 0}
 table{border-collapse:collapse;width:100%;font-size:16px}
 th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
 th{background:#f2f7fc}
 </style></head><body>
-<header class="topbar"><a href="../../index.html">Все классы</a> · <a href="../index.html">9 класс</a><span>1 триместр</span></header>
+<header class="topbar"><a href="../../index.html">Все классы</a><a href="../index.html">9 класс</a><span>1 триместр</span></header>
+<a class="mobile-grade-back" href="../index.html" aria-label="Вернуться к списку тем 9 класса">← К темам</a>
 <main class="page">
 <div class="eyebrow">Заочное обучение · 9 класс · 1 триместр · Тема 9</div>
 <h1>Машиностроительный комплекс России</h1>
@@ -99,5 +102,5 @@ th{background:#f2f7fc}
 <div class="sources">Источники: Большая российская энциклопедия · Русское географическое общество · Encyclopædia Britannica · Минпромторг России · ОАК · Трансмашхолдинг</div>
 
 <nav class="tasknav"><a href="z91-08-cvetnaya-metallurgiya.html">← Тема 8: Цветная металлургия</a><a href="z91-10-opk.html">Тема 10: ОПК РФ →</a></nav>
-<footer>Заочное обучение · 9 класс · 1 триместр</footer>
+<footer>Заочное обучение · 9 класс · 1 триместр<span style="display:block;margin-top:4px;font-size:10px;opacity:.35">Сайт создан Пендюриным В. Ю.</span></footer>
 </main></body></html>
